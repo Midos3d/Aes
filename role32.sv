@@ -8,5 +8,5 @@ module role32(
   assign Z=32 -shamt;
   assign X=mixed>>shamt;
   assign Y=mixed<<Z;
-  assign H=X^Y;
+  assign H=X|Y;
 endmodule
