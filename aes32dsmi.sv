@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 module aes32dsmi (
   input [1:0] bs,
   input [31:0] rs1,
